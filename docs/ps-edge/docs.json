@@ -1,0 +1,143 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "PS Edge",
+  "colors": {
+    "primary": "#066aab",
+    "light": "#3666b0",
+    "dark": "#044a78"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "docs/introduction",
+              "docs/quickstart",
+              "docs/architecture"
+            ]
+          },
+          {
+            "group": "Donor Management",
+            "pages": [
+              "docs/donors/overview",
+              "docs/donors/profiles",
+              "docs/donors/giving-history",
+              "docs/donors/campaigns",
+              "docs/donors/communications"
+            ]
+          },
+          {
+            "group": "Grant Management",
+            "pages": [
+              "docs/grants/tracking",
+              "docs/grants/applications",
+              "docs/grants/reporting",
+              "docs/grants/compliance"
+            ]
+          },
+          {
+            "group": "Program Management",
+            "pages": [
+              "docs/programs/planning",
+              "docs/programs/execution",
+              "docs/programs/participants",
+              "docs/programs/outcomes"
+            ]
+          },
+          {
+            "group": "Volunteers",
+            "pages": [
+              "docs/volunteers/recruitment",
+              "docs/volunteers/scheduling",
+              "docs/volunteers/tracking",
+              "docs/volunteers/engagement"
+            ]
+          },
+          {
+            "group": "Impact & Reporting",
+            "pages": [
+              "docs/impact/measurement",
+              "docs/impact/analytics",
+              "docs/impact/storytelling",
+              "docs/impact/reports"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Features",
+        "groups": [
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/overview",
+              "features/donor-management",
+              "features/grant-tracking",
+              "features/program-management",
+              "features/volunteer-coordination",
+              "features/impact-measurement"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "API Reference",
+            "pages": [
+              "api-reference/overview",
+              "api-reference/authentication",
+              "api-reference/donors",
+              "api-reference/grants",
+              "api-reference/programs",
+              "api-reference/volunteers"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "GitHub",
+          "href": "https://github.com/BlueHorizonsGroup",
+          "icon": "github"
+        },
+        {
+          "anchor": "Community",
+          "href": "https://bluehorizonsgroup.com/community",
+          "icon": "slack"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:support@bluehorizonsgroup.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://psedge.bluehorizonsgroup.com"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/BlueHorizonsGroup",
+      "linkedin": "https://www.linkedin.com/company/blue-horizons-group"
+    }
+  }
+}

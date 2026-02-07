@@ -1,0 +1,117 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Rally Stack",
+  "colors": {
+    "primary": "#066aab",
+    "light": "#3666b0",
+    "dark": "#044a78"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "docs/introduction",
+              "docs/quickstart",
+              "docs/architecture"
+            ]
+          },
+          {
+            "group": "Platform Core",
+            "pages": [
+              "docs/platform/overview",
+              "docs/platform/monorepo-structure",
+              "docs/platform/rally-ai-framework",
+              "docs/platform/agent-protocol",
+              "docs/platform/technology-stack"
+            ]
+          },
+          {
+            "group": "Development",
+            "pages": [
+              "docs/development/getting-started",
+              "docs/development/module-creation",
+              "docs/development/testing",
+              "docs/development/deployment"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Modules",
+        "groups": [
+          {
+            "group": "Modules (130+)",
+            "pages": [
+              "modules/overview",
+              "modules/business-management",
+              "modules/nonprofit",
+              "modules/spm",
+              "modules/operations",
+              "modules/development",
+              "modules/ui-components",
+              "modules/integrations",
+              "modules/ai-tools"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "API Reference",
+            "pages": [
+              "api-reference/overview",
+              "api-reference/authentication",
+              "api-reference/modules",
+              "api-reference/ai-framework"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "GitHub",
+          "href": "https://github.com/AICodeRally",
+          "icon": "github"
+        },
+        {
+          "anchor": "Community",
+          "href": "https://bluehorizonsgroup.com/community",
+          "icon": "slack"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:support@bluehorizonsgroup.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://rally.aicoderally.com"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/AICodeRally",
+      "linkedin": "https://www.linkedin.com/company/blue-horizons-group"
+    }
+  }
+}

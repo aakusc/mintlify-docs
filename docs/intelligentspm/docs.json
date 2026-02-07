@@ -1,0 +1,142 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "IntelligentSPM",
+  "colors": {
+    "primary": "#066aab",
+    "light": "#3666b0",
+    "dark": "#044a78"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "docs/introduction",
+              "docs/roadmap",
+              "docs/architecture"
+            ]
+          },
+          {
+            "group": "Quota Management",
+            "pages": [
+              "docs/quotas/planning",
+              "docs/quotas/allocation",
+              "docs/quotas/tracking",
+              "docs/quotas/adjustments"
+            ]
+          },
+          {
+            "group": "Territory Planning",
+            "pages": [
+              "docs/territories/design",
+              "docs/territories/assignment",
+              "docs/territories/balancing",
+              "docs/territories/optimization"
+            ]
+          },
+          {
+            "group": "Performance Analytics",
+            "pages": [
+              "docs/analytics/dashboards",
+              "docs/analytics/attainment",
+              "docs/analytics/forecasting",
+              "docs/analytics/trends"
+            ]
+          },
+          {
+            "group": "Compensation & Incentives",
+            "pages": [
+              "docs/compensation/plan-design",
+              "docs/compensation/calculation",
+              "docs/compensation/payout",
+              "docs/compensation/reporting"
+            ]
+          },
+          {
+            "group": "AI-Powered Insights",
+            "pages": [
+              "docs/ai/overview",
+              "docs/ai/predictive-analytics",
+              "docs/ai/recommendations",
+              "docs/ai/anomaly-detection"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Features",
+        "groups": [
+          {
+            "group": "Planned Features",
+            "pages": [
+              "features/overview",
+              "features/quota-management",
+              "features/territory-planning",
+              "features/performance-analytics",
+              "features/incentive-design",
+              "features/ai-insights"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "API Reference",
+            "pages": [
+              "api-reference/overview",
+              "api-reference/authentication",
+              "api-reference/quotas",
+              "api-reference/territories",
+              "api-reference/performance",
+              "api-reference/compensation"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "GitHub",
+          "href": "https://github.com/BlueHorizonsGroup",
+          "icon": "github"
+        },
+        {
+          "anchor": "Community",
+          "href": "https://bluehorizonsgroup.com/community",
+          "icon": "slack"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:support@bluehorizonsgroup.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Request Access",
+      "href": "https://bluehorizonsgroup.com/intelligentspm"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/BlueHorizonsGroup",
+      "linkedin": "https://www.linkedin.com/company/blue-horizons-group"
+    }
+  }
+}

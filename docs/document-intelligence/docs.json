@@ -1,0 +1,143 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Document Intelligence",
+  "colors": {
+    "primary": "#066aab",
+    "light": "#3666b0",
+    "dark": "#044a78"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "docs/introduction",
+              "docs/roadmap",
+              "docs/architecture"
+            ]
+          },
+          {
+            "group": "Document Processing",
+            "pages": [
+              "docs/processing/upload",
+              "docs/processing/extraction",
+              "docs/processing/classification",
+              "docs/processing/indexing"
+            ]
+          },
+          {
+            "group": "Compliance Analysis",
+            "pages": [
+              "docs/compliance/overview",
+              "docs/compliance/regulatory-requirements",
+              "docs/compliance/gap-analysis",
+              "docs/compliance/reporting"
+            ]
+          },
+          {
+            "group": "Policy Validation",
+            "pages": [
+              "docs/policy/validation-rules",
+              "docs/policy/approval-workflows",
+              "docs/policy/version-control",
+              "docs/policy/audit-trails"
+            ]
+          },
+          {
+            "group": "AI-Powered Features",
+            "pages": [
+              "docs/ai/overview",
+              "docs/ai/intelligent-extraction",
+              "docs/ai/anomaly-detection",
+              "docs/ai/recommendations",
+              "docs/ai/natural-language-queries"
+            ]
+          },
+          {
+            "group": "Risk Management",
+            "pages": [
+              "docs/risk/assessment",
+              "docs/risk/scoring",
+              "docs/risk/monitoring",
+              "docs/risk/alerts"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Features",
+        "groups": [
+          {
+            "group": "Planned Features",
+            "pages": [
+              "features/overview",
+              "features/document-processing",
+              "features/compliance-analysis",
+              "features/policy-validation",
+              "features/ai-insights",
+              "features/risk-assessment"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "API Reference",
+            "pages": [
+              "api-reference/overview",
+              "api-reference/authentication",
+              "api-reference/documents",
+              "api-reference/analysis",
+              "api-reference/compliance",
+              "api-reference/policies"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "GitHub",
+          "href": "https://github.com/BlueHorizonsGroup",
+          "icon": "github"
+        },
+        {
+          "anchor": "Community",
+          "href": "https://bluehorizonsgroup.com/community",
+          "icon": "slack"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:support@bluehorizonsgroup.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Request Access",
+      "href": "https://bluehorizonsgroup.com/document-intelligence"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/BlueHorizonsGroup",
+      "linkedin": "https://www.linkedin.com/company/blue-horizons-group"
+    }
+  }
+}

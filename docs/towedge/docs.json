@@ -1,0 +1,125 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "TowEdge Platform",
+  "colors": {
+    "primary": "#066aab",
+    "light": "#3666b0",
+    "dark": "#044a78"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "docs/introduction",
+              "docs/quickstart",
+              "docs/architecture"
+            ]
+          },
+          {
+            "group": "Operations",
+            "pages": [
+              "docs/operations/dispatch",
+              "docs/operations/fleet-management",
+              "docs/operations/driver-management",
+              "docs/operations/reporting"
+            ]
+          },
+          {
+            "group": "Customer Management",
+            "pages": [
+              "docs/customers/portal",
+              "docs/customers/accounts",
+              "docs/customers/billing",
+              "docs/customers/history"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "docs/integrations/overview",
+              "docs/integrations/payment-processors",
+              "docs/integrations/gps-tracking",
+              "docs/integrations/communication"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Features",
+        "groups": [
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/overview",
+              "features/service-requests",
+              "features/driver-tracking",
+              "features/vehicle-tracking",
+              "features/customer-portal",
+              "features/billing",
+              "features/dispatch-optimization"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "API Reference",
+            "pages": [
+              "api-reference/overview",
+              "api-reference/authentication",
+              "api-reference/service-requests",
+              "api-reference/drivers",
+              "api-reference/vehicles",
+              "api-reference/customers"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "GitHub",
+          "href": "https://github.com/BlueHorizonsGroup",
+          "icon": "github"
+        },
+        {
+          "anchor": "Community",
+          "href": "https://bluehorizonsgroup.com/community",
+          "icon": "slack"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:support@bluehorizonsgroup.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://towedge.bluehorizonsgroup.com"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/BlueHorizonsGroup",
+      "linkedin": "https://www.linkedin.com/company/blue-horizons-group"
+    }
+  }
+}

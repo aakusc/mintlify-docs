@@ -1,0 +1,135 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "AICR Platform",
+  "colors": {
+    "primary": "#066aab",
+    "light": "#3666b0",
+    "dark": "#044a78"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "docs/introduction",
+              "docs/quickstart",
+              "docs/architecture"
+            ]
+          },
+          {
+            "group": "Studio Layer",
+            "pages": [
+              "docs/studio/overview",
+              "docs/studio/pack-authoring",
+              "docs/studio/manifest-validation",
+              "docs/studio/surface-testing",
+              "docs/studio/development-tools"
+            ]
+          },
+          {
+            "group": "Edge Layer",
+            "pages": [
+              "docs/edge/overview",
+              "docs/edge/tenant-runtime",
+              "docs/edge/feature-flags",
+              "docs/edge/pack-resolver",
+              "docs/edge/telemetry"
+            ]
+          },
+          {
+            "group": "Summit Layer",
+            "pages": [
+              "docs/summit/overview",
+              "docs/summit/pack-marketplace",
+              "docs/summit/promotion-workflows",
+              "docs/summit/partner-onboarding",
+              "docs/summit/capability-mapping"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "docs/concepts/pack-system",
+              "docs/concepts/database-architecture",
+              "docs/concepts/ai-agents",
+              "docs/concepts/self-awareness",
+              "docs/concepts/governance"
+            ]
+          },
+          {
+            "group": "Control Centers",
+            "pages": [
+              "docs/control-centers/overview",
+              "docs/control-centers/aicc",
+              "docs/control-centers/kbcc",
+              "docs/control-centers/gocc",
+              "docs/control-centers/docc",
+              "docs/control-centers/incc",
+              "docs/control-centers/qacc",
+              "docs/control-centers/idcc",
+              "docs/control-centers/opcc"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "API Reference",
+            "pages": [
+              "api-reference/overview",
+              "api-reference/authentication",
+              "api-reference/packs",
+              "api-reference/tenants",
+              "api-reference/agents",
+              "api-reference/work-items"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "GitHub",
+          "href": "https://github.com/AICodeRally/AICR",
+          "icon": "github"
+        },
+        {
+          "anchor": "Community",
+          "href": "https://bluehorizonsgroup.com/community",
+          "icon": "slack"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:support@bluehorizonsgroup.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://aicr.aicoderally.com"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/AICodeRally/AICR",
+      "linkedin": "https://www.linkedin.com/company/blue-horizons-group"
+    }
+  }
+}

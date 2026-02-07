@@ -1,0 +1,130 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "SGM Documentation",
+  "colors": {
+    "primary": "#066aab",
+    "light": "#3666b0",
+    "dark": "#044a78"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "User Guide",
+            "pages": [
+              "user-guide/overview",
+              "user-guide/getting-started",
+              "user-guide/governance-analysis",
+              "user-guide/policy-library",
+              "user-guide/plan-management",
+              "user-guide/approvals",
+              "user-guide/documents",
+              "user-guide/search-reports"
+            ]
+          },
+          {
+            "group": "Operational Modes",
+            "pages": [
+              "user-guide/modes/design-mode",
+              "user-guide/modes/operate-mode",
+              "user-guide/modes/dispute-mode",
+              "user-guide/modes/oversee-mode"
+            ]
+          },
+          {
+            "group": "Admin Guide",
+            "pages": [
+              "admin-guide/overview",
+              "admin-guide/system-setup",
+              "admin-guide/user-management",
+              "admin-guide/tenant-configuration",
+              "admin-guide/workflow-configuration",
+              "admin-guide/integrations",
+              "admin-guide/troubleshooting"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "API",
+            "pages": [
+              "api-reference/overview",
+              "api-reference/authentication",
+              "api-reference/asksgm",
+              "api-reference/policies",
+              "api-reference/plans",
+              "api-reference/documents",
+              "api-reference/admin",
+              "api-reference/client-dashboards",
+              "api-reference/audit"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Reference",
+        "groups": [
+          {
+            "group": "Reference",
+            "pages": [
+              "reference/policy-library",
+              "reference/governance-framework",
+              "reference/glossary",
+              "reference/faq"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "GitHub",
+          "href": "https://github.com/AICodeRally/sgm-sparcc-demo",
+          "icon": "github"
+        },
+        {
+          "anchor": "Community",
+          "href": "https://bluehorizonsgroup.com/community",
+          "icon": "slack"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:support@bluehorizonsgroup.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://sgm.aicoderally.com"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/your-org/sgm-sparcc-demo"
+    }
+  }
+}

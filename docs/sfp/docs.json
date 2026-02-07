@@ -1,0 +1,143 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "SFP - Startup Financial Planning",
+  "colors": {
+    "primary": "#066aab",
+    "light": "#3666b0",
+    "dark": "#044a78"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "docs/introduction",
+              "docs/quickstart",
+              "docs/architecture"
+            ]
+          },
+          {
+            "group": "Financial Modeling",
+            "pages": [
+              "docs/modeling/overview",
+              "docs/modeling/scenarios",
+              "docs/modeling/assumptions",
+              "docs/modeling/variables",
+              "docs/modeling/calculations"
+            ]
+          },
+          {
+            "group": "Forecasting",
+            "pages": [
+              "docs/forecasting/revenue",
+              "docs/forecasting/expenses",
+              "docs/forecasting/cash-flow",
+              "docs/forecasting/runway"
+            ]
+          },
+          {
+            "group": "Budgeting",
+            "pages": [
+              "docs/budgeting/creation",
+              "docs/budgeting/tracking",
+              "docs/budgeting/variance-analysis",
+              "docs/budgeting/adjustments"
+            ]
+          },
+          {
+            "group": "Reporting",
+            "pages": [
+              "docs/reporting/financial-statements",
+              "docs/reporting/investor-reports",
+              "docs/reporting/board-reports",
+              "docs/reporting/metrics"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "pages": [
+              "docs/integrations/overview",
+              "docs/integrations/accounting-software",
+              "docs/integrations/banking",
+              "docs/integrations/crm"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Features",
+        "groups": [
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/overview",
+              "features/scenario-modeling",
+              "features/deterministic-calculations",
+              "features/forecast-generation",
+              "features/budget-planning",
+              "features/financial-reporting"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "API Reference",
+            "pages": [
+              "api-reference/overview",
+              "api-reference/authentication",
+              "api-reference/scenarios",
+              "api-reference/forecasts",
+              "api-reference/budgets",
+              "api-reference/reports"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "GitHub",
+          "href": "https://github.com/BlueHorizonsGroup",
+          "icon": "github"
+        },
+        {
+          "anchor": "Community",
+          "href": "https://bluehorizonsgroup.com/community",
+          "icon": "slack"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:support@bluehorizonsgroup.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://sfp.bluehorizonsgroup.com"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/BlueHorizonsGroup",
+      "linkedin": "https://www.linkedin.com/company/blue-horizons-group"
+    }
+  }
+}
